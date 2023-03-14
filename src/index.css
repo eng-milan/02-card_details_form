@@ -4,7 +4,7 @@
 
 .mobileheader {
     background-image: url(./images//bg-main-mobile.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
