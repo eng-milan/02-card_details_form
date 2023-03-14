@@ -32,7 +32,7 @@ function Input({ onChange, className, label, errormessage, ...rest }) {
         }
     }
 
-    return <div className={`${rest.name === "cardExpiryMounth" || rest.name === "cardExpiryYear" || rest.name === "cardCvc" ? "flex flex-col justify-end w-[155px] lg:w-[100px] xl:w-[120px] 2xl:w-[150px]" : "w-full"}`}>
+    return <div className={`${rest.name === "cardExpiryMounth" || rest.name === "cardExpiryYear" || rest.name === "cardCvc" ? "flex flex-col justify-end w-[150px] lg:w-[100px] xl:w-[120px] 2xl:w-[150px]" : "w-full"}`}>
         <label className={rest.name === "cardExpiryMounth" ? "w-[200px]" : ""}>{label}</label>
         <input
             onChange={handleChange}
