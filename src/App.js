@@ -2,6 +2,7 @@ import { useState } from "react"
 import CardForm from "./components/CardForm"
 import Header from "./components/Header"
 import FormValidated from "./components/FormValidated"
+import Footer from "./components/Footer"
 
 function App() {
     const [cardInformation, setCardInformation] = useState({
@@ -69,6 +70,7 @@ function App() {
                 <CardForm className="lg:w-[70%]" onChange={onChange} cardInformation={cardInformation} handleSubmit={onSubmit} />
             }
         </div>
+        <Footer className="bg-white" />
     </div>
 }
 

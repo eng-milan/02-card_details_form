@@ -15,7 +15,7 @@ function CardForm({ cardInformation, onChange, handleSubmit, className }) {
         <div className="flex flex-wrap justify-between">
             {renderedInputs}
         </div>
-        <button className="py-3 bg-blue-900 text-white text-xl rounded-lg">Confirm</button>
+        <button className="mb-14 py-3 bg-blue-900 text-white text-xl rounded-lg">Confirm</button>
     </form >
 }
 
