@@ -63,8 +63,8 @@ function App() {
         })
     }
 
-    return <div className="flex justify-center">
-        <div className="mobileheader w-[483px] lg:h-screen lg:flex lg:w-full" role="main">
+    return <div className="flex justify-center" role="main">
+        <div className="mobileheader w-[483px] lg:h-screen lg:flex lg:w-full">
             <Header className="lg:w-[30%]" cardInformation={cardInformation} />
             {cardInformation.formValid ? <FormValidated onContinue={onContinue} className="lg:w-[70%]" /> :
                 <CardForm className="lg:w-[70%]" onChange={onChange} cardInformation={cardInformation} handleSubmit={onSubmit} />
